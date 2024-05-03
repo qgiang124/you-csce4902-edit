@@ -118,7 +118,7 @@
 
 <body>
   <header>
-    <div class="logo">Café Mocha</div>
+    <h1 class="logo">Café Mocha</h1>
     <nav>
       <a href="#home">Home</a>
       <a href="#menu">Menu</a>
@@ -128,7 +128,7 @@
   </header>
 
   <section id="home" class="hero">
-    <h1>Welcome to Café Mocha</h1>
+    <h2>Welcome to Café Mocha</h2>
     <p>Enjoy our delicious coffee and pastries in a cozy atmosphere.</p>
   </section>
 
@@ -163,9 +163,12 @@
   <section id="contact" class="contact-us">
     <h2>Contact Us</h2>
     <form class="contact-form">
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Message" required></textarea>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Your message" required></textarea>
       <button type="submit">Send</button>
     </form>
   </section>
