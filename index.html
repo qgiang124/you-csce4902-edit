@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Mocha</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #F8F1E5;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #5F4339;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #5F4339;
+    }
+
+    /* Hero Section Styles */
+    .hero {
+      background-image: url('hero.jpg');
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #FFFFFF;
+      text-align: center;
+    }
+
+    /* Menu Section Styles */
+    .menu {
+      padding: 40px;
+      background-color: #F8F1E5;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .menu-item {
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+      background-color: #FFFFFF;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .menu-item img {
+      max-width: 200px;
+      height: auto;
+    }
+
+    /* About Us Section Styles */
+    .about-us {
+      background-color: #F8F1E5;
+      padding: 40px;
+      text-align: center;
+    }
+
+    /* Contact Us Section Styles */
+    .contact-us {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #5F4339;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #5F4339;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #F8F1E5;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .social-media-links a {
+      margin: 10px;
+      color: #5F4339;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Café Mocha</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Welcome to Café Mocha</h1>
+    <p>Enjoy our delicious coffee and pastries in a cozy atmosphere.</p>
+  </section>
+
+  <section id="menu" class="menu">
+    <div class="menu-item">
+      <img src="coffee1.jpg" alt="Coffee 1">
+      <h3>Espresso</h3>
+      <p>A strong black coffee made by forcing steam through ground coffee beans.</p>
+      <p><strong>$2.99</strong></p>
+    </div>
+
+    <div class="menu-item">
+      <img src="coffee2.jpg" alt="Coffee 2">
+      <h3>Cappuccino</h3>
+      <p>A coffee made with espresso and steamed milk foam.</p>
+      <p><strong>$3.49</strong></p>
+    </div>
+
+    <div class="menu-item">
+      <img src="coffee3.jpg" alt="Coffee 3">
+      <h3>Mocha</h3>
+      <p>A coffee made with espresso, chocolate, and steamed milk.</p>
+      <p><strong>$3.99</strong></p>
+    </div>
+  </section>
+
+  <section id="about" class="about-us">
+    <h2>About Us</h2>
+    <p>Café Mocha is a cozy coffee shop that aims to provide a warm and inviting environment for coffee lovers. We are passionate about serving the finest quality coffee and pastries sourced from local suppliers. Our mission is to create a space where people can relax, connect, and enjoy the simple pleasures of life.</p>
+  </section>
+
+  <section id="contact" class="contact-us">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <div>&copy; 2024 Café Mocha. All rights reserved.</div>
+    <div class="social-media-links">
+      <a href="https://facebook.com/cafemocha" target="_blank">Facebook</a>
+      <a href="https://twitter.com/cafemocha" target="_blank">Twitter</a>
+      <a href="https://instagram.com/cafemocha" target="_blank">Instagram</a>
+    </div>
+  </footer>
+</body>
+
+</html>
